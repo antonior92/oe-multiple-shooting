@@ -41,7 +41,7 @@ class SimulationError(ErrorFunction):
     penalty_weigth : float, optional
         Coeficient that weights the importace of the coherence
         between diferent simulations intervals. By defaut,
-        it is 20.
+        it is 100000.
 
     Call Parameters
     ---------------
@@ -59,7 +59,7 @@ class SimulationError(ErrorFunction):
         is ((Nd - max(M, N))*Ny+N*Ny*(Nshoots-1),).
     """
 
-    def __init__(self, mdl, y, u, maxlength=20, penalty_weigth=20):
+    def __init__(self, mdl, y, u, maxlength=20, penalty_weigth=100000):
 
         # Check Input
         self.mdl, self.y, self.u, self.maxlength, self.penalty_weigth \

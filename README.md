@@ -58,3 +58,8 @@ author = "Antônio H. Ribeiro and Luis A. Aguirre",
 keywords = "Multiple shooting, output error models, simulation error minimization, nonlinear least-squares"
 }
 ```
+
+
+## Examples
+
+Folder [``examples``](https://github.com/antonior92/oe-multiple-shooting/tree/master/examples) contain Jupyter notebooks for reproducing the examples presented in the paper.
